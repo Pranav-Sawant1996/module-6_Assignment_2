@@ -51,13 +51,14 @@ align-items: center;
 	}
 }
 main .signUp{
-	height: 450px;
+	height: auto;
 	width: 700px;
 	background-color: brown;
 	padding: 40px;
 	border-radius: 8px;
 	opacity: 0.7;
 }
+
 @media screen and (max-width: 992px){
 	main .signUp{
 		width: auto;
@@ -79,6 +80,8 @@ main .loginForm{
 		height: auto;
 	}
 }
+
+
 main .section-1{
 	width: auto;
 	height: 90vh;
@@ -224,6 +227,7 @@ text-decoration: none;
 	border-radius: 50%;
 	height: 200px;
 	width: 200px;
+	
 }
 .section-3 .section-3-1 a svg{
 	width: 40px;
